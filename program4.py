@@ -3,7 +3,7 @@ def factorial(n):
         return 1
     else:
         return n*factorial(n-1)
-number=int(input("enter a number:"))
+number=int(input("Enter a number:"))
 if number<0:
     print("\nError: Factorial is not defined for negative numbers")
 else:
